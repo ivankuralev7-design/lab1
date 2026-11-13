@@ -107,6 +107,10 @@ h1 {
   font-size: clamp(32px, 5vw, 56px);
   line-height: 1.1;
 }
+h1:hover {
+  text-decoration: underline;
+  color: var(--color-primary);
+}
 main p {
   max-width: 700px;
   color: var(--color-muted);
@@ -263,7 +267,7 @@ footer .container {
 .products {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .container {
     width: min(100% - 24px, var(--container-width));
   }
@@ -288,4 +292,8 @@ footer .container {
   footer .container {
     flex-direction: column;
   }
-}
+    
+} */
+/* underlinenap :hover {
+  text-decoration: underline;
+} */
